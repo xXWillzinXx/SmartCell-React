@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.logo-image {
+    height: 85px;
+    cursor: pointer;
+}
+
+.nav-panel {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    gap: 15px;
+}
+
+.account {
+    color: #59CBE8;
+    border: none;
+    background: none;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.account:hover {
+    color: #35798b;
+}
+
+.cart {
+    color: #59CBE8;
+    border: none;
+    background: none;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cart:hover {
+    color: #35798b;
+}
